@@ -6,10 +6,10 @@
 class GameWorld : public Runnable, public Renderable, public ReceievesInput
 {
 public:
-	GameWorld();
-	~GameWorld();
-	void init();
-	void loadScene();
+    GameWorld();
+    ~GameWorld();
+    void init();
+    void loadScene();
     void render();
     void update();
     void input();

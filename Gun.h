@@ -3,8 +3,5 @@
 class Gun : public isAWeapon
 {
 
-	virtual void fire() = 0;
-	
-	
-	
+    virtual void fire() = 0;
 };

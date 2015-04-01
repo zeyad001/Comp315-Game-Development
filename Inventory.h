@@ -5,8 +5,8 @@
 class Inventory
 {
 public:
-     Inventory(int);
-     ~Inventory();
+    Inventory(int);
+    ~Inventory();
     int size = 0;
     std::vector<Item*> list;
     virtual void addToInventory(Item*) = 0;

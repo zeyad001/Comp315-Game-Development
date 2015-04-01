@@ -1,8 +1,6 @@
 
 class MeleeWeapon : public isAWeapon
 {
-	
-	virtual void swingWeapon() = 0;
-	
 
+    virtual void swingWeapon() = 0;
 };

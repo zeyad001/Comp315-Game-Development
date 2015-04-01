@@ -9,7 +9,7 @@ class Person : public Runnable, public Renderable, public ReceievesInput
 {
 public:
     std::vector<Behaviour> behaviours;
-	virtual addBehaviour(Behaviour)=0;
+    virtual addBehaviour(Behaviour) = 0;
 };
 
 #endif // PERSON_H
