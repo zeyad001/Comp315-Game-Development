@@ -5,9 +5,11 @@
 #include "ReceievesInput.h"
 #include "Behaviour.h"
 #include <vector>
+#include "Point.h"
 class Person : public Runnable, public Renderable, public ReceievesInput
 {
 public:
+    Point currentPosition;
     std::vector<Behaviour> behaviours;
     virtual addBehaviour(Behaviour) = 0;
 };
