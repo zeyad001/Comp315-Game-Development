@@ -2,7 +2,7 @@
 #define WEAPON_H
 #include "Runnable.h"
 #include "Renderable.h"
-#include "ReceievesInput.h"
+#include "ReceivesInput.h"
 #include "string"
 class isAWeapon : public Quality
 {

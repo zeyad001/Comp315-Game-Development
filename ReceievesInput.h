@@ -1,3 +1,4 @@
+#pragma once
 #ifndef RECEIEVESINPUT_H
 #define RECEIEVESINPUT_H
 

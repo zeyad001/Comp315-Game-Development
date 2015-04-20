@@ -2,10 +2,10 @@
 #define ITEM_H
 #include "Runnable.h"
 #include "Renderable.h"
-#include "ReceievesInput.h"
+#include "ReceivesInput.h"
 #include "string"
 #include "Quality.h"
-class Item : public Runnable, public Renderable, public ReceievesInput
+class Item : public Runnable, public Renderable, public ReceivesInput
 {
 public:
     std::vector<Quality> qualities;

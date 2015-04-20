@@ -2,15 +2,17 @@
 #define INVENTORY_H
 #include <vector>
 #include "Item.h"
-class Inventory
+#include "Behaviour.h"
+class Inventory : public Behaviour
 {
 public:
     Inventory(int);
     ~Inventory();
     int size = 0;
-    std::vector<Item*> list;
-    virtual void addToInventory(Item*) = 0;
-    virtual void removeFromInventory(int slotId) = 0;
+    int maxSize = 0;
+    std::vector<Item*> items;
+    virtual bool addToInventory(Item*) = 0;
+    virtual Item* removeFromInventory(int slotId) = 0;
 };
 
 #endif // INVENTORY_H
